@@ -22,10 +22,10 @@ npm i vue-dynamic-inputs
 HTML: 
 
  <vue-dynamic-inputs
-            @onSubmit="submitedValues"
-            :data="listOfInputs"
-            :buttonSettings="buttonSettings"
-/>
+     @onSubmit="submitedValues"
+     :data="listOfInputs"
+     :buttonSettings="buttonSettings"
+ />
 
 
 JS:
